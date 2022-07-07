@@ -65,4 +65,12 @@ public class ControllerConfig {
         return controller;
     }
 
+    @Bean
+    public RestMemberController restApi() {
+        RestMemberController cont = new RestMemberController();
+        cont.setMemberDao(memberDao);
+        cont.setMemberRegisterService(memberRegSvc);
+        return cont;
+    }
+
 }

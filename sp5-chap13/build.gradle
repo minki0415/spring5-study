@@ -19,6 +19,9 @@ dependencies {
     implementation 'org.apache.tomcat:tomcat-jdbc:9.0.64'
     implementation 'mysql:mysql-connector-java:8.0.28'
     implementation 'org.slf4j:slf4j-api:1.7.36'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2.2'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2'
     testImplementation 'ch.qos.logback:logback-classic:1.2.3'
     implementation 'javax.validation:validation-api:1.1.0.Final'
 }
